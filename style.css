@@ -1,0 +1,29 @@
+html, body {padding: 0;margin: 0;}
+* {box-sizing: border-box;}
+body {background: #ddd; padding-top: 20px;}
+canvas {
+  background: black;
+  margin: 0 auto;
+  display: block;
+}
+
+#Score {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 5px 0 5px;
+  list-style-type: none;
+}
